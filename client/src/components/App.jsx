@@ -1,5 +1,7 @@
 import React from 'react';
-import Reviews from './Bundles.jsx';
+import styled from 'styled-components';
+
+import Reviews from './Reviews.jsx';
 
 const axios = require('axios')
 
