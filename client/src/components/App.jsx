@@ -19,6 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h2>Showing Text From App.jsx (react app)</h2>
         <Reviews data={this.state.data} />
       </div>
     )

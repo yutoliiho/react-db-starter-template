@@ -1,8 +1,7 @@
 {
-  "name": "Calendar",
+  "name": "ProxyProductPage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "react-dev": "webpack -d --watch",
     "start": "nodemon server/server.js",
@@ -35,5 +34,14 @@
     "babel-loader": "^8.1.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutoliiho/react-db-starter-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yutoliiho/react-db-starter-template/issues"
+  },
+  "homepage": "https://github.com/yutoliiho/react-db-starter-template#readme",
+  "description": ""
 }

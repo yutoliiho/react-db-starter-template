@@ -10,7 +10,7 @@ class Review extends React.Component {
     // console.log(this.props.review)
     return (
       <div style={{ padding: '10', borderTop: '1px solid #eee' }}>
-        <div>{this.props.data}</div>
+        <div>{this.props.data.name}</div>
       </div>
     )
   }
