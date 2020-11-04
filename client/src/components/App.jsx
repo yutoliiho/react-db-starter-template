@@ -1,11 +1,13 @@
 import React from 'react';
+import Reviews from './Bundles.jsx';
+
 const axios = require('axios')
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      //
+      data: [{ name: 'tong' }, { name: 'alex' }]
     }
   }
 
@@ -15,7 +17,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Zuumers from App.jsx</h2>
+        <Reviews data={this.state.data} />
       </div>
     )
   }
